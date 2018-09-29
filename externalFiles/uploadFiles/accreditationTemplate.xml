@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tk20:Transaction xmlns:tk20="http://www.tk20.com/dataload">
+  <tk20:Create>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationTemplate" logicalId="object1">
+      <tk20:Attribute name="displayWordLimit" value="false"/>
+      <tk20:Attribute name="displayCharLimit" value="false"/>
+      <tk20:Attribute name="isActive" value="true"/>
+      <tk20:Attribute name="isLocked" value="false"/>
+      <tk20:Attribute name="title" value="Import of Template For Import Export 1"/>
+      <tk20:Attribute name="reportLabel" value="Compliance Report"/>
+      <tk20:Attribute name="level1Label" value="Section"/>
+      <tk20:Attribute name="level2Label" value="Standard"/>
+      <tk20:Attribute name="evidenceAreaLabel" value="Evidence Room"/>
+      <tk20:Attribute name="chairLabel" value="Chair"/>
+      <tk20:Attribute name="internalCommitteeLabel" value="Committee"/>
+      <tk20:Attribute name="narrativeLabel" value="Narrative"/>
+      <tk20:Attribute name="externalReviewTeamLabel" value="Peer Review Team"/>
+      <tk20:Attribute name="linkName" value="Instructions"/>
+      <tk20:Attribute name="instructionsLabel" value=""/>
+      <tk20:Attribute name="instructions" value=""/>
+      <tk20:Attribute name="beginDate" value=""/>
+      <tk20:Attribute name="endDate" value=""/>
+      <tk20:Attribute name="lastSaved" value=""/>
+      <tk20:Attribute name="status" value="Active"/>
+      <tk20:Attribute name="frequency" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object2">
+      <tk20:Attribute name="sort" value="1"/>
+      <tk20:Attribute name="charLimit" value="0"/>
+      <tk20:Attribute name="wordLimit" value="0"/>
+      <tk20:Attribute name="includeJudgeOfCompliance" value="true"/>
+      <tk20:Attribute name="includeNarrative" value="true"/>
+      <tk20:Attribute name="isCheckedOut" value="false"/>
+      <tk20:Attribute name="isHidden" value="false"/>
+      <tk20:Attribute name="title" value="Standard 1"/>
+      <tk20:Attribute name="fullStandard" value=""/>
+      <tk20:Attribute name="status" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object3">
+      <tk20:Attribute name="sort" value="2"/>
+      <tk20:Attribute name="charLimit" value="0"/>
+      <tk20:Attribute name="wordLimit" value="0"/>
+      <tk20:Attribute name="includeJudgeOfCompliance" value="true"/>
+      <tk20:Attribute name="includeNarrative" value="true"/>
+      <tk20:Attribute name="isCheckedOut" value="false"/>
+      <tk20:Attribute name="isHidden" value="false"/>
+      <tk20:Attribute name="title" value="Standard 2"/>
+      <tk20:Attribute name="fullStandard" value=""/>
+      <tk20:Attribute name="status" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object4">
+      <tk20:Attribute name="sort" value="1"/>
+      <tk20:Attribute name="charLimit" value="0"/>
+      <tk20:Attribute name="wordLimit" value="0"/>
+      <tk20:Attribute name="includeJudgeOfCompliance" value="true"/>
+      <tk20:Attribute name="includeNarrative" value="true"/>
+      <tk20:Attribute name="isCheckedOut" value="false"/>
+      <tk20:Attribute name="isHidden" value="false"/>
+      <tk20:Attribute name="title" value="Standard 1"/>
+      <tk20:Attribute name="fullStandard" value=""/>
+      <tk20:Attribute name="status" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object5">
+      <tk20:Attribute name="sort" value="2"/>
+      <tk20:Attribute name="charLimit" value="0"/>
+      <tk20:Attribute name="wordLimit" value="0"/>
+      <tk20:Attribute name="includeJudgeOfCompliance" value="false"/>
+      <tk20:Attribute name="includeNarrative" value="false"/>
+      <tk20:Attribute name="isCheckedOut" value="false"/>
+      <tk20:Attribute name="isHidden" value="false"/>
+      <tk20:Attribute name="title" value="Level 2"/>
+      <tk20:Attribute name="fullStandard" value=""/>
+      <tk20:Attribute name="status" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object6">
+      <tk20:Attribute name="sort" value="2"/>
+      <tk20:Attribute name="charLimit" value="0"/>
+      <tk20:Attribute name="wordLimit" value="0"/>
+      <tk20:Attribute name="includeJudgeOfCompliance" value="true"/>
+      <tk20:Attribute name="includeNarrative" value="true"/>
+      <tk20:Attribute name="isCheckedOut" value="false"/>
+      <tk20:Attribute name="isHidden" value="false"/>
+      <tk20:Attribute name="title" value="Standard 2"/>
+      <tk20:Attribute name="fullStandard" value=""/>
+      <tk20:Attribute name="status" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object7">
+      <tk20:Attribute name="sort" value="1"/>
+      <tk20:Attribute name="charLimit" value="0"/>
+      <tk20:Attribute name="wordLimit" value="0"/>
+      <tk20:Attribute name="includeJudgeOfCompliance" value="false"/>
+      <tk20:Attribute name="includeNarrative" value="false"/>
+      <tk20:Attribute name="isCheckedOut" value="false"/>
+      <tk20:Attribute name="isHidden" value="false"/>
+      <tk20:Attribute name="title" value="Level 1"/>
+      <tk20:Attribute name="fullStandard" value=""/>
+      <tk20:Attribute name="status" value=""/>
+    </tk20:Object>
+  </tk20:Create>
+  <tk20:Update>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationTemplate" logicalId="object1">
+      <tk20:Relation name="evidenceRoomCategories" operation="set"/>
+      <tk20:Relation name="accreditationLevels" operation="set">
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object7"/>
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object5"/>
+      </tk20:Relation>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object2">
+      <tk20:Relation name="parentLevel" operation="set">
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object7"/>
+      </tk20:Relation>
+      <tk20:Relation name="copiedFrom" operation="set"/>
+      <tk20:Relation name="childLevels" operation="set"/>
+      <tk20:Relation name="committeeMembers" operation="set"/>
+      <tk20:Relation name="narratives" operation="set"/>
+      <tk20:Relation name="comments" operation="set"/>
+      <tk20:Relation name="dueDates" operation="set"/>
+      <tk20:Relation name="copiedAccreditationLevels" operation="set"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object3">
+      <tk20:Relation name="parentLevel" operation="set">
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object5"/>
+      </tk20:Relation>
+      <tk20:Relation name="copiedFrom" operation="set"/>
+      <tk20:Relation name="childLevels" operation="set"/>
+      <tk20:Relation name="committeeMembers" operation="set"/>
+      <tk20:Relation name="narratives" operation="set"/>
+      <tk20:Relation name="comments" operation="set"/>
+      <tk20:Relation name="dueDates" operation="set"/>
+      <tk20:Relation name="copiedAccreditationLevels" operation="set"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object4">
+      <tk20:Relation name="parentLevel" operation="set">
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object5"/>
+      </tk20:Relation>
+      <tk20:Relation name="copiedFrom" operation="set"/>
+      <tk20:Relation name="childLevels" operation="set"/>
+      <tk20:Relation name="committeeMembers" operation="set"/>
+      <tk20:Relation name="narratives" operation="set"/>
+      <tk20:Relation name="comments" operation="set"/>
+      <tk20:Relation name="dueDates" operation="set"/>
+      <tk20:Relation name="copiedAccreditationLevels" operation="set"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object5">
+      <tk20:Relation name="parentLevel" operation="set"/>
+      <tk20:Relation name="copiedFrom" operation="set"/>
+      <tk20:Relation name="childLevels" operation="set">
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object4"/>
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object3"/>
+      </tk20:Relation>
+      <tk20:Relation name="committeeMembers" operation="set"/>
+      <tk20:Relation name="narratives" operation="set"/>
+      <tk20:Relation name="comments" operation="set"/>
+      <tk20:Relation name="dueDates" operation="set"/>
+      <tk20:Relation name="copiedAccreditationLevels" operation="set"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object6">
+      <tk20:Relation name="parentLevel" operation="set">
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object7"/>
+      </tk20:Relation>
+      <tk20:Relation name="copiedFrom" operation="set"/>
+      <tk20:Relation name="childLevels" operation="set"/>
+      <tk20:Relation name="committeeMembers" operation="set"/>
+      <tk20:Relation name="narratives" operation="set"/>
+      <tk20:Relation name="comments" operation="set"/>
+      <tk20:Relation name="dueDates" operation="set"/>
+      <tk20:Relation name="copiedAccreditationLevels" operation="set"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object7">
+      <tk20:Relation name="parentLevel" operation="set"/>
+      <tk20:Relation name="copiedFrom" operation="set"/>
+      <tk20:Relation name="childLevels" operation="set">
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object2"/>
+        <tk20:Reference class="com.tk20.bo.accreditationtemplate.AccreditationLevel" logicalId="object6"/>
+      </tk20:Relation>
+      <tk20:Relation name="committeeMembers" operation="set"/>
+      <tk20:Relation name="narratives" operation="set"/>
+      <tk20:Relation name="comments" operation="set"/>
+      <tk20:Relation name="dueDates" operation="set"/>
+      <tk20:Relation name="copiedAccreditationLevels" operation="set"/>
+    </tk20:Object>
+  </tk20:Update>
+</tk20:Transaction>
